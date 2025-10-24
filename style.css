@@ -1,0 +1,158 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fefefe;
+  color: #333;
+  padding-top: 120px; 
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #a8dadc;
+  color: #1d3557;
+  padding: 20px 0;
+  text-align: center;
+  box-shadow: 0 2px 6px #dceef0;
+  z-index: 1000; 
+}
+
+header h1 {
+  margin: 0;
+  font-size: 36px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px #93c2c9;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 10px 0 0 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 18px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #1d3557;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+nav ul li a:hover {
+  color: #457b9d;
+}
+
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+section {
+  background-color: white;
+  width: 80%;
+  max-width: 750px;
+  margin: 25px auto;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 0px 10px #dceef0;
+}
+
+section h2 {
+  color: #457b9d;
+  margin-bottom: 15px;
+  display: block;
+  text-align: center;
+  font-size: 26px;
+  border-bottom: 2px solid #a8dadc;
+  padding-bottom: 6px;
+}
+
+#about img {
+  display: block;
+  margin: 15px auto 10px auto; 
+  border-radius: 50%; 
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border: 4px solid #a8dadc;
+}
+
+#projects ul {
+  text-align: left;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#projects li {
+  background-color: #e0f7f9;
+  margin: 8px 0;
+  padding: 8px;
+  border-radius: 6px;
+  border-left: 4px solid #457b9d;
+}
+
+#skills table {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#skills th, #skills td {
+  border: 1px solid #457b9d;
+  padding: 8px;
+}
+
+#skills th {
+  background-color: #457b9d;
+  color: white;
+}
+
+form {
+  text-align: left;
+  width: 80%;
+  margin: 0 auto;
+}
+
+label {
+  font-weight: bold;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #a8dadc;
+  border-radius: 5px;
+  margin-top: 5px;
+  background-color: #f8fdfd;
+}
+
+button {
+  background-color: #457b9d;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1d3557;
+}
+
+footer {
+  background-color: #a8dadc;
+  color: #1d3557;
+  text-align: center;
+  padding: 12px;
+  margin-top: 30px;
+  box-shadow: 0 -2px 6px #dceef0;
+}
