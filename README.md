@@ -22,7 +22,7 @@ This is my personal portfolio website created for Web Development I Lab Assignme
 - Visual separators using `<hr>`
 
 ##  Live website link
-https://sumancode-07.github.io/portfolio-project-/
+ https://sumancode-07.github.io/Web-Dev-Lab-2/
 
 
 
