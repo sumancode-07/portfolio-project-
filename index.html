@@ -8,59 +8,29 @@
 </head>
 <body>
 
-
-    <!--Header and Navigation-->
-    <header> 
-        <h1><b>Suman Mishra</b></h1>
+    <!-- Header -->
+    <header>
+        <h1>My Portfolio</h1>
         <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>          
-        
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
     </header>
-<!--Main Section-->
-<main>
-    <section>
-        <h2><b>Welcome to my Portfolio</b></h2>
-        <p> Hello! I am a web development student.
-             This is my personal portfolio website.</p>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <img src="suman.jpg" alt="Profile Image" class="profile-img">
+        <p>Hello! My name is Suman Mishra. I am learning web development and this is my first portfolio website.</p>
     </section>
+    <hr>
 
-
-    <!--About Section-->
-    <section id="about">
-        <h2>About Me </h2>
-        <a href="https://ibb.co/ZptNQJM5"><img src="https://i.ibb.co/G4BFZJ5y/IMG-20250925-224802.jpg" alt="My Profile Picture"width="150" border="0" /></a>
-        <p>
-            I am a B.Tech CSE student passionate about web 
-            development.
-            I love creating websites and learning new technologies.
-        </p>
-    </section>
-
-
-    <!--Projects Section-->
-    <section id="projects">
-        <h2><b>My Projects</b></h2>
-        <ul>
-            <li><b>Portfolio Website:</b> A Personal one-page website to showcase my bio,
-            skills and contact details</li>
-            <li><b>Medium Clone:</b>A Simple blog layout that looks llike Medium , built 
-            only with HTML and CSS</li>
-           <li><b>Birthday Card:</b>A creative greeting card webpage designed with HTML structure
-        and CSS styling</li>
-        </ul>
-    </section>
-
-
-    <!--Skills Section-->
-    <section id="skills">
-        <h2><b>Technical Skills</b></h2>
-        <table border="1">
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <h2>My Skills</h2>
+        <table>
             <tr>
                 <th>Skill</th>
                 <th>Level</th>
@@ -73,32 +43,63 @@
                 <td>CSS</td>
                 <td>Beginner</td>
             </tr>
-            <tr> 
-                <td>Javascript</td>
+            <tr>
+                <td>JavaScript</td>
                 <td>Learning</td>
             </tr>
         </table>
     </section>
+    <hr>
 
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <h2>My Projects</h2>
 
-    <!--Contact Section-->
-    <section id="contact">
-        <h2><b>Contact Me</b></h2>
-        <form>
-            <label for="name">Name:</label>
-            <input type="text" id="name" placeholder="ENTER YOUR NAME"required>
-            <br><br>
-            <label for="email">Email:</label>
-            <input type="text" id="email" placeholder="ENTER YOUR EMAIL"required>
-            <br><br>
-            <label for="message">Message:</label><br>
-            <textarea id="message" placeholder="ENTER YOUR MESSAGE"required></textarea>
-            <br><br>
-            <button type="submit">SEND</button>
-        </form>
+        <div class="project-box">
+            <img src="project 1.jpg" alt="project 1" class="project-img">
+            <h3>Project 1</h3>
+            <p>A simple HTML & CSS webpage.</p>
+        </div>
+
+        <div class="project-box">
+            <img src="project 2.jpg" alt="project 2" class="project-img">
+            <h3>Project 2</h3>
+            <p>Another awesome mini project.</p>
+        </div>
     </section>
-</main>
-<!--Footer-->
-  <footer> </footer>
+    <hr> 
+    
+    <!-- Contact Section (Table Form) -->
+<section id="contact" class="section">
+    <h2>Contact Me</h2>
+    
+    <table class="contact-table">
+        <tr>
+            <td><label>Name:</label></td>
+            <td><input type="text" placeholder="Enter your name"></td>
+        </tr>
+
+        <tr>
+            <td><label>Email:</label></td>
+            <td><input type="email" placeholder="Enter your email"></td>
+        </tr>
+
+        <tr>
+            <td><label>Message:</label></td>
+            <td><textarea placeholder="Write your message"></textarea></td>
+        </tr>
+
+        <tr>
+            <td colspan="2" style="text-align:center;">
+                <button type="submit">Send</button>
+            </td>
+        </tr>
+    </table>
+</section>
+
+    <a href="#top" class="back-top">↑ Back to Top</a>
+
 </body>
 </html>
+
+    
