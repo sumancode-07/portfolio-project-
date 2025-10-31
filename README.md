@@ -24,8 +24,6 @@ This is my personal portfolio website created for Web Development I Lab Assignme
 ##  Live website link
 https://sumancode-07.github.io/portfolio-project-/
 
-## Github Repository
-https://github.com/sumancode-07/portfolio-project-.git
 
 
 ## 📬 Contact
